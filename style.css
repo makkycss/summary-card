@@ -140,18 +140,25 @@ button:hover{
 }
 @media screen and (max-width: 480px){ 
    .container{
-    display: flexbox;
+    display: inline-block;
+    
+   
+    width: 480px;
+    
    }
    
     .card-one{
-        width: 200px;
-        padding: 10px;
-        height: 0px;
+        width: 100%;
+       
+
+        
     }
     .card-two{
-        width: 200px;
-        padding: 30px;
-        height: 200px;
+        width: 100%;
+        
+        border: 1px solid black;
+      
+
     }
     
 }
