@@ -1,0 +1,157 @@
+body{
+
+}
+.container{
+    background-color: white;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+}
+.card-one{
+    
+
+background: #5E57EE;
+background: linear-gradient(180deg, #5E57EE, #0104CA);
+    padding: 40px;
+    width: 200px;
+    justify-content: center;
+    text-align: center;
+    border-radius: 20px;
+    color: hsl(0, 0%, 100%);
+    font-family: Hanken Grotesk;
+
+
+}
+.card-one h1{
+    font-size: 18px;
+}
+ .card-one .circle{
+    width: 80px;
+background: #3B33E7;
+background: linear-gradient(0deg, #3B33E7, #0104CA);
+    border-radius: 100%;
+    height: 80px;
+    padding: 20px;
+    text-align: center;
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 30px;
+  font-family: Hanken Grotesk;
+ }
+.card-one .circle h1{
+    font-size: 40px;
+    font-weight: bolder;
+    font-family: Hanken Grotesk;    
+}
+.card-one .circle p{
+    padding-bottom: 20px;
+}
+.card-one h2{
+    font-size: 18px;
+    margin-top: 30px;
+    font-weight: bolder;
+    font-family: Hanken Grotesk;
+
+}
+.card-one p{
+    font-size: 13px;
+    font-family: Hanken Grotesk;
+    color: hsl(0, 0%, 80%);
+    
+}
+.card-two{
+    background-color: white;
+    padding: 10px;
+    width: 250px;
+    justify-content: center;
+    font-family: Hanken Grotesk;
+    border: 10px rgb(255, 255, 255)  solid;
+    border-radius: 0px 10px 10px;
+    box-shadow: 10px 10px rgb(248, 248, 253);
+
+    
+}
+.flex-one{
+    font-family: Hanken Grotesk;
+    display: flex;   
+    background-color: rgb(247, 244, 244);
+    color: darkpink;
+    border-radius: 7px 7px 7px 7px;
+}
+.flex-one h3{
+    padding-left: 12px;
+    color: rgb(235, 98, 7);
+}
+
+.flex-two{
+    display: flex;
+    font-family: Hanken Grotesk;
+    display: flex;   
+    background-color: rgb(245, 249, 230);
+    
+    border-radius: 7px 7px 7px 7px;
+
+}
+.flex-two h3{
+    padding-left: 12px;
+    color: rgb(234, 227, 15);
+}
+
+.flex-three{
+    display: flex;
+    font-family: Hanken Grotesk;
+    display: flex;   
+    background-color: rgb(239, 250, 240);
+    color: darkpink;
+    border-radius: 7px 7px 7px 7px;
+}
+.flex-three h3{
+    padding-left: 12px;
+    color: rgb(10, 194, 10);
+}
+
+.flex-four{
+    display: flex;
+    font-family: Hanken Grotesk;
+    display: flex;   
+    background-color: rgb(245, 247, 255);
+    color: darkpink;
+    border-radius: 7px 7px 7px 7px;
+}
+.flex-four h3{
+    padding-left: 12px;
+    color: rgb(10, 16, 194);
+}
+.align{
+    padding-left: 70px;
+}
+button{
+    padding: 8px 80px 8px 80px;
+    margin-top: 20px;
+    border-radius: 15px;
+    background: #272727;
+    color: hsl(0, 0%, 100%);
+    font-size: 16px;
+}
+
+button:hover{
+    background-color: linear-gradient(180deg, #5E57EE, #0104CA);
+}
+@media screen and (max-width: 480px){ 
+   .container{
+    display: flexbox;
+   }
+   
+    .card-one{
+        width: 200px;
+        padding: 10px;
+        height: 0px;
+    }
+    .card-two{
+        width: 200px;
+        padding: 30px;
+        height: 200px;
+    }
+    
+}
