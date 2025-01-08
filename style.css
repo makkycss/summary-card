@@ -141,20 +141,25 @@ button:hover{
 }
 @media screen and (max-width: 500px){ 
    .container{
-    display: inline-block;
+   display: block;
     justify-content: center;
-    justify-self: center;
-    width: 80%;
-    margin: 10px;
-    border: 1px solid rgb(255, 255, 255);
+    
+   
+   
     font-size: 16px;
+    box-shadow: 3px 3px 3px 3px rgb(243, 244, 243);
+   border-radius: 20px;
+    margin: auto;
+    width: 80%;
+    border: 3px solid rgb(243, 244, 243);
+    padding: 10px;
    
    }
    
     .card-one{
         width: 300px;
        padding: 30px;
-
+      
         
     }
     .card-two{
@@ -163,18 +168,28 @@ button:hover{
         border: 1px solid black;
         border-radius: 20px;
         border: 1px white;
-
+        box-shadow: none;
+       
       
 
     }
     .flex-one .flex-two .flex-three .flex-four{
-        padding-left: 90px;
-        width: 100%;
+        padding: 80%;
+       
     }
-    .flex-one .flex-two .flex-three .flex-four h3{
-        padding-left: 90px;
+    .align{
+        padding-left: 50px;
+    }
+    button{
+        background-color: linear-gradient(180deg, #5E57EE, #0104CA);
+    }
+    button:hover{
+        background-color: rgb(153, 191, 244);
+        border: 5px solid white;
+
+    }
       
-    }
+    
 
 
 }
